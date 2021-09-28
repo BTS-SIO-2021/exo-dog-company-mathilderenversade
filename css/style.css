@@ -1,0 +1,77 @@
+body {
+    background-color: #674B24;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#container {
+   width: 50%;
+   background-color: white;
+   border: solid black 5px;
+   margin: 2% auto 5% ;
+   /* lien vers la documentation pour text-align : https://developer.mozilla.org/fr/docs/Web/CSS/text-align */
+   text-align:center;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 230%;
+    border-top: solid darkred 3px;
+    border-bottom: solid darkred 3px;
+    margin: 20px;
+    padding: 1%;
+}
+
+h2 {
+    font-size: 150%;
+    padding-bottom: 15px;
+}
+
+h3 {
+    color: darkred;
+    font-size: 120%;
+}
+
+main, footer {
+    background-color: #EEEEEE;
+}
+
+main {
+    width: 80%;
+    margin : 16px auto;
+    padding: 25px 0;
+    /*line-height https://developer.mozilla.org/fr/docs/Web/CSS/line-height*/
+    line-height: 1.2em;
+}
+
+footer {
+    padding: 20px 0 50px;
+    margin: 0 3% 3%;
+}
+
+section p {
+    text-align: left;
+    padding: 20px;
+}
+
+aside {
+    border-top: solid black 3px;
+    padding: 20px ;
+}
+
+aside p {
+    font-style: italic;
+    font-size: 0.6em;
+}
+
+section img {
+    width: 150px;
+    height: 150px;
+}
+
+header img {
+    margin-top: 2%;
+}
