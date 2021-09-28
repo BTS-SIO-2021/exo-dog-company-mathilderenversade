@@ -13,7 +13,7 @@ body {
    text-align:center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
 }
@@ -31,7 +31,7 @@ h2 {
     padding-bottom: 15px;
 }
 
-h3 {
+h3, h4 {
     color: darkred;
     font-size: 120%;
 }
@@ -102,4 +102,43 @@ li a {
 
 #produits h3 {
     padding: 16px 0;
+}
+
+#presentation-produits {
+    background-color: white;
+}
+
+#presentation-produits article {
+    width: 25%;
+    height: 250px;
+    border: solid black 2px;
+    padding: 10px;
+    /*display: inline-block;*/
+    margin: 0 1%;
+}
+
+#presentation-produits h3 {
+    font-size: 150%;
+    padding-bottom: 15px;
+    color: black;
+    padding: 3%;
+}
+
+#presentation-produits h4 {
+    margin: 15% 0;
+}
+
+#presentation-produits p {
+    padding: 0;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#presentation-produits img {
+    width: 100%;
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
 }
